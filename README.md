@@ -21,23 +21,23 @@ meal_info.csv – information about meal categories and cuisines
 
 center_info.csv – information about fulfillment centers
 
-Important variables used in the analysis include:
+Important Variables
 
-week (time index)
+week – time index
 
-center_id (fulfillment center location)
+center_id – fulfillment center location
 
-meal_id (meal identifier)
+meal_id – meal identifier
 
-checkout_price (final selling price)
+checkout_price – final selling price
 
-base_price (original price)
+base_price – original price
 
-emailer_for_promotion (promotion indicator)
+emailer_for_promotion – promotion indicator
 
-homepage_featured (homepage promotion indicator)
+homepage_featured – homepage promotion indicator
 
-num_orders (target variable representing total orders)
+num_orders – target variable representing total orders
 
 The datasets were merged and prepared for machine learning analysis.
 
@@ -101,8 +101,6 @@ Overall, the model demonstrates strong predictive performance and shows that mac
 
 Technologies Used
 
-The following tools and libraries were used in this project:
-
 Python
 
 Jupyter Notebook
@@ -116,18 +114,26 @@ Scikit-learn
 Matplotlib
 
 Repository Contents
-food-demand-forecast/
+Food-Demand-Forecasting-System/
 │
-├── food_demand_forecasting.ipynb   # Jupyter notebook containing the full analysis and model
-└── README.md                       # Project documentation
+├── food_demand_forecasting.ipynb
+├── README.md
+├── requirements.txt
+│
+├── data/
+├── graphs/
+└── report/
+
+Project Documents
+
+📄 Project Report
+https://github.com/taqwaalmohammedi/AFood-Demand-Forecasting-System-to-Reduce-Food-Waste-project/blob/main/Smart%20Food%20Waste%20Prediction%20System.docx
+
+📊 Project Presentation
+https://github.com/taqwaalmohammedi/AFood-Demand-Forecasting-System-to-Reduce-Food-Waste-project/blob/main/SMART%20FOOD%20WASTE%20PREDICTION%20SYSTEM.pdf
+
 Conclusion
 
 This project demonstrates how machine learning can be applied to predict food demand using historical order data. The Random Forest model achieved strong predictive performance and provides useful insights into the factors that influence customer ordering behavior.
 
 By using predictive analytics, food service providers can make more informed preparation decisions, reduce unnecessary food waste, and improve operational efficiency.
-
-Project Documents
-
-📄 Project Report: https://github.com/taqwaalmohammedi/AFood-Demand-Forecasting-System-to-Reduce-Food-Waste-project/blob/main/Smart%20Food%20Waste%20Prediction%20System.docx
-
-📊 Project Presentation: https://github.com/taqwaalmohammedi/AFood-Demand-Forecasting-System-to-Reduce-Food-Waste-project/blob/main/SMART%20FOOD%20WASTE%20PREDICTION%20SYSTEM.pdf
