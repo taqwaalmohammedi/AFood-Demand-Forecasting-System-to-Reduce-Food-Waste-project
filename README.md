@@ -125,3 +125,9 @@ Conclusion
 This project demonstrates how machine learning can be applied to predict food demand using historical order data. The Random Forest model achieved strong predictive performance and provides useful insights into the factors that influence customer ordering behavior.
 
 By using predictive analytics, food service providers can make more informed preparation decisions, reduce unnecessary food waste, and improve operational efficiency.
+
+Project Documents
+
+📄 Project Report: https://github.com/taqwaalmohammedi/AFood-Demand-Forecasting-System-to-Reduce-Food-Waste-project/blob/main/Smart%20Food%20Waste%20Prediction%20System.docx
+
+📊 Project Presentation: https://github.com/taqwaalmohammedi/AFood-Demand-Forecasting-System-to-Reduce-Food-Waste-project/blob/main/SMART%20FOOD%20WASTE%20PREDICTION%20SYSTEM.pdf
